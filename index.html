@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Mary Puppins</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/marypuppinslogo.jpg"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-top">
+        <div class="container">
+          <ul class="header-top-list">
+            <li>
+              <a href="mailto:mary.puppins@outlook.com" class="header-top-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>mary.puppins@outlook.com</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>
+                  Bridgehouse Farm, Mauchline Road, Killmarnock United Kingdom
+                </address>
+              </a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <ul class="header-top-social-list">
+              <li>
+                <a href="#" class="header-top-social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="header-top-social-link">
+                  <ion-icon name="logo-tiktok"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="header-top-social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header-top-social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+
+            <button class="header-top-btn">Enquire</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="container">
+          <a href="#" class="logo">
+            <img src="./assets/images/marypuppinslogo.jpg" alt="" height="60" style="border-radius: 50%;"/>
+
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <button
+                class="nav-close-btn"
+                data-nav-close-btn
+                aria-label="Close Menu"
+              >
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <div class="navbar-bottom">
+              <ul class="navbar-list">
+                <li>
+                  <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+
+                <li>
+                  <a href="#about" class="navbar-link" data-nav-link>About</a>
+                </li>
+
+                <li>
+                  <a href="#service" class="navbar-link" data-nav-link
+                    >Service</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#contact" class="navbar-link" data-nav-link
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="header-bottom-actions">
+            <button class="header-bottom-actions-btn" aria-label="Search">
+              <ion-icon name="search-outline"></ion-icon>
+
+              <span>Search</span>
+            </button>
+
+            <button class="header-bottom-actions-btn" aria-label="Profile">
+              <ion-icon name="person-outline"></ion-icon>
+
+              <span>Profile</span>
+            </button>
+
+            <button
+              class="header-bottom-actions-btn"
+              data-nav-open-btn
+              aria-label="Open Menu"
+            >
+              <ion-icon name="menu-outline"></ion-icon>
+
+              <span>Menu</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">
+                <ion-icon name="home"></ion-icon>
+
+                <span> Pet Care </span>
+              </p>
+
+              <h2 class="h1 hero-title">
+                We are the #1 pet care service provider in Killmarnock, UK.
+              </h2>
+
+              <p class="hero-text">
+                With thousands of clients served since our launch, we
+                have made it our mission to provide our clients with the highest
+                quality of pet care services.
+              </p>
+
+              <button class="btn">Make An Enquiry</button>
+            </div>
+
+            <figure class="hero-banner">
+              <video loop autoplay width="500" height="500" class="w-100">
+                <source src="./assets/images/cooldoggy.mp4" />
+              </video>
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT hide
+      -->
+
+        <section class="about" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img src="./assets/images/standingdog.jpg" alt="" />
+
+              <img
+                src="./assets/images/jpg"
+                alt=""
+                class="abs-img"
+              /> 
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">About Us</p>
+
+              <h2 class="h2 section-title">
+                We have your pet's best interest at heart
+              </h2>
+
+              <p class="about-text">
+                offering in home pet care services; daycare boarding, dog walking and more!
+              </p>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                  </div>
+
+                  <p class="about-item-text">In home pet care services</p>
+                </li>
+
+                <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="leaf-outline"></ion-icon>
+                  </div>
+
+                  <p class="about-item-text">Daycare</p>
+                </li>
+
+                <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="wine-outline"></ion-icon>
+                  </div>
+
+                  <p class="about-item-text">Dog walks</p>
+                </li>
+
+                <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                  </div>
+
+                  <p class="about-item-text">Pet sitting</p>
+                </li>
+              </ul>
+
+              <p class="callout">
+                "if having a soul means being able to feel love and loyalty and
+                gratitude, then animals are better off than a lot of humans."
+              </p>
+
+              <a href="#service" class="btn">Our Services</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE hide
+      -->
+
+        <section class="service" id="service">
+          <div class="container">
+            <p class="section-subtitle">What Our Clients Are Saying</p>
+
+            <h2 class="h2 section-title"></h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/review1.jpg"
+                      alt="Service icon"
+                      class="rounded-image"
+                    />
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#"> Tammy Alexandra</a>
+                  </h3>
+
+                  <p class="card-text">
+                    "
+                    Loki (my dog) has been going to Mary Puppins for a little over a year. 
+                    He has loved every minutes . He always comes back happy and exhausted from  a day of play
+                    with his puppins pals. It's calming to know Loki is being cared when I'm away. 
+                    
+                    "
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span></span>
+
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+               <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/review2.jpg"
+                      alt="Service icon"
+                      class="rounded-image"
+                    />
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Lorraine Russell</a>
+                  </h3>
+
+                  <p class="card-text">
+                    "Fantastic service, Reed is brilliant. He looks after my dog like his own. My dog is so happy, 
+                    he knows when its Mary Puppins days. He sits at the window waiting on Reed. I go to work knowing that my
+                    dog is getting the love, care and attention that gets at home...  "
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span></span>
+
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+               <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/review.jpg"
+                      alt="Service icon"
+                      class="rounded-image"
+                    />
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Emma Bridgeman</a>
+                  </h3>
+
+                  <p class="card-text">
+                    "
+                    Our Maniature Schnauzer, Phoebe has been attending Mary Puppins for nearly a year and a half.
+                    We mainly wanted to get her more socialised and confident around other dogs. She has come on leaps 
+                    and bounds from when she first attended
+                  ".
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span></span>
+
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- #Our Work -->
+
+        <section class="property" id="property">
+          <div class="container">
+            <p class="section-subtitle">At Work</p>
+
+            <h2 class="h2 section-title">Media</h2>
+
+            <ul class="property-list has-scrollbar">
+              <li>
+                <div class="property-card">
+                  <figure class="card-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/petsitting.jpg"
+                        alt="Modern Apartments"
+                        class="w-100"
+                      />
+                    </a>
+
+                    <div class="card-badge green">Pet Sitting</div>
+
+                    <div class="banner-actions">
+                      <button class="banner-actions-btn">
+                        <ion-icon name="camera"></ion-icon>
+
+                        <span>4</span>
+                      </button>
+
+                      <button class="banner-actions-btn">
+                        <ion-icon name="film"></ion-icon>
+
+                        <span>2</span>
+                      </button>
+                    </div>
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div class="property-card">
+                  <figure class="card-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/dogwalk.jpg"
+                        alt="Modern Apartments"
+                        class="w-100"
+                      />
+                    </a>
+
+                    <div class="card-badge orange">Dog Walk</div>
+
+                    <div class="banner-actions">
+                      <button class="banner-actions-btn">
+                        <ion-icon name="camera"></ion-icon>
+
+                        <span>4</span>
+                      </button>
+
+                      <button class="banner-actions-btn">
+                        <ion-icon name="film"></ion-icon>
+
+                        <span>2</span>
+                      </button>
+                    </div>
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div class="property-card">
+                  <figure class="card-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/fooddelivery.jpg"
+                        alt="Modern Apartments"
+                        class="w-100"
+                      />
+                    </a>
+
+                    <div class="card-badge green">Pet Food Delivery</div>
+
+                    <div class="banner-actions">
+                      <button class="banner-actions-btn">
+                        <ion-icon name="camera"></ion-icon>
+
+                        <span>4</span>
+                      </button>
+
+                      <button class="banner-actions-btn">
+                        <ion-icon name="film"></ion-icon>
+
+                        <span>2</span>
+                      </button>
+                    </div>
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div class="property-card">
+                  <figure class="card-banner">
+                    <a href="#">
+                      <img
+                        src="./assets/images/pettaxi.jpg"
+                        alt="Luxury villa in Rego Park"
+                        class="w-100"
+                      />
+                    </a>
+
+                    <div class="card-badge green">Pet Taxi</div>
+
+                    <div class="banner-actions">
+                      <button class="banner-actions-btn">
+                        <ion-icon name="camera"></ion-icon>
+
+                        <span>4</span>
+                      </button>
+
+                      <button class="banner-actions-btn">
+                        <ion-icon name="film"></ion-icon>
+
+                        <span>2</span>
+                      </button>
+                    </div>
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <!-- <section class="features">
+          <div class="container">
+            <p class="section-subtitle">Pet Care Craft</p>
+
+            <h2 class="h2 section-title">Pet Products</h2>
+
+            <ul class="features-list">
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/dogplay (1).jpg"
+                      alt="Modern Apartments"
+                      class="br-100"
+                    />
+                  </div>
+
+                  <h3 class="card-title">Pet play thing</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/dogplay (2).jpg"
+                      alt="Modern Apartments"
+                      class="br-100"
+                    />
+                  </div>
+
+                  <h4 class="card-title"> Dog bed</h4>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/dogplay (3).jpg"
+                      alt="Modern Apartments"
+                      class="br-100"
+                    />
+                  </div>
+
+                  <h3 class="card-title"> Our Pet Care Shop</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/dogplay (4).jpg"
+                      alt="Modern Apartments"
+                      class="br-100"
+                    />
+                  </div>
+
+                  <h3 class="card-title"> Woof Dog Bed</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/dogplay (5).jpg"
+                      alt="Modern Apartments"
+                      class="br-100"
+                    />
+                  </div>
+
+                  <h3 class="card-title"> Greenish Dog Cover</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/dogplay (6).jpg"
+                      alt="Modern Apartments"
+                      class="br-100"
+                    />
+                  </div>
+
+                  <h3 class="card-title">Reddish Dog Cover</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/dogplay (7).jpg"
+                      alt="Modern Apartments"
+                      class="br-100"
+                    />
+                  </div>
+
+                  <h3 class="card-title"> Dog Cover</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/dogplay (8).jpg"
+                      alt="Modern Apartments"
+                      class="br-100"
+                    />
+                  </div>
+
+                  <h3 class="card-title">Poker Dot Cover</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section> -->
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section class="cta">
+          <div class="container">
+            <div class="cta-card">
+              <div class="card-content">
+                <h2 class="h2 card-title">Looking for the best Pet Carers?</h2>
+
+                <p class="card-text">
+                  You can rest assured that your pets are in safe hands whilst
+                  you are away on holiday.
+                </p>
+              </div>
+
+              <button class="btn cta-btn">
+                <span>Explore Media</span>
+
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/marypuppinslogo.jpg"
+                height="40" style="border-radius: 50%;"
+                
+                alt="logo"
+              />
+            </a>
+
+            <p class="section-text">A nanny for pets</p>
+
+            <ul class="contact-list">
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="location-outline"></ion-icon>
+
+                  <address>
+                    Bridgehouse Farm, Mauchline Road, Killmarnock, UK
+                  </address>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+447427507170" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+
+                  </span>+447427507170</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="mary.puppins@outlook.com" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+
+                  <span>Mary.puppins@outlook.com</span>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-link-box">
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Company</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">About</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">All Products</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Locations Map</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">FAQ</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Contact us</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Services & Products</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Dog Walks </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Pet Taxi</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Pet food delivery service</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Pet Sitting</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link"> Pet Beds</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Customer Care</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">FAQ</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">&copy; 2023. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
